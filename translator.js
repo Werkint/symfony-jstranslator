@@ -1,8 +1,9 @@
 /**
  * Модуль для переводов
  */
-define(function () {
+define(['translatorLoader!'], function () {
     'use strict';
+
 
     // TODO: delete window.Translator;
     return window.Translator;
